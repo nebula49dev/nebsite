@@ -1,2 +1,1 @@
-# mysite
-source for web page
+sourcecode for my page

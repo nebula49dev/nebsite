@@ -1,2 +1,9 @@
-Source for my page. If your hacking this, I sure as hell don't know why because
-there is such a thing as inspect element but idk
+            _           _         ___  _____     _            
+           | |         | |       /   ||  _  |   | |           
+ _ __   ___| |__  _   _| | __ _ / /| || |_| | __| | _____   __
+| '_ \ / _ \ '_ \| | | | |/ _` / /_| |\____ |/ _` |/ _ \ \ / /
+| | | |  __/ |_) | |_| | | (_| \___  |.___/ / (_| |  __/\ V / 
+|_| |_|\___|_.__/ \__,_|_|\__,_|   |_/\____/ \__,_|\___| \_/  
+
+This is the source code for my website. This is entirely free to use.
+Have at it!

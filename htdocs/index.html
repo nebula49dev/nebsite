@@ -1,78 +1,30 @@
+<!DOCTYPE html>
 <!-- poking around in the source today, aren't we? -->
 <!-- You might not like what you find -->
-<!DOCTYPE html>
+<!-- almost all styling for the whole site is external and is located in the css folder -->
 <html>
 
- <!-- styling web page -->
-    <style>
+<!-- link style.css -->
+<link rel="stylesheet" href="css/style.css">
 
-      head {
-          font-family: sans-serif;
-      }
+<!-- navbar -->
+<div class="topnav">
+  <a class="active" href="index.html"> Home </a>
+  <a href="contact.html"> Contact </a>
+</div>
 
-      body {
-          font-family: sans-serif;
-          background-color: #ffffff;
-          color: #ffffff;
-          whitespace: normal;
-          margin: 20px;
-          background-image: url("images/backimage.png");
-      }
-      /* hyperlink styling */
-      a {
-        box-shadow: 0px 1px 0px 0px #f0f7fa;
-        background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
-        background-color:#33bdef;
-        border-radius:6px;
-        border:1px solid #057fd0;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-family:Arial;
-        font-size:15px;
-        font-weight:bold;
-        padding:6px 24px;
-        text-decoration:none;
-        text-shadow:0px -1px 0px #5b6178;
-      }
-
-      a:hover {
-        background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
-      	background-color:#019ad2;
-      }
-
-      a:active {
-        position:relative;
-      	top:1px;
-      }
-
-      /* dynamic image scaling */
-      img {
-        width: 100%;
-        height: auto;
-      }
-      div {
-        background-color: #99d6ff;
-        padding: 20px;
-      }
-      table {
-        border-style: solid;
-        border-width: 2px;
-        border-color: #ffffff;
-      }
-    </style>
-
-<div>
-<!-- head element + favicon url -->
+<div class="body">
+<!-- head element -->
   <head>
 
-             <img alt="nebula49dev" src="images/banner.png"/>
+<!-- banner image -->
+             <img alt="nebula49dev" src="images/banner.png" class=title/>
 
 <link rel="icon" type="image/x-icon" href="images/favicon.ico"  />
     <h2> Welcome to NEBULA49DEV's website! </h2>
       <h3> Not much goes on here, but enjoy your stay! </h3>
-        <h4> <a href="https://www.github.com/IsaiahSloan"> My GitHub </a> </h4>
-        <h4> <a href="https://nebula49.itch.io/"> My Itch </a> </h4>
+        <h4> <a class="button" href="https://www.github.com/IsaiahSloan"> My GitHub </a> </h4>
+        <h4> <a class="button" href="https://nebula49.itch.io/"> My Itch </a> </h4>
   </head>
 <!-- ========================! main contents below !======================== -->
   <body>
@@ -112,7 +64,7 @@ upload on is: </p>
   </ul>
 
 <!-- buttons -->
-<a href="contact.html"> Contact Me </a>
+<a class="button" href="contact.html"> Contact Me </a>
 <p> I am not currently accepting hiring offers.
 If you have a request or suggestion, email me. </p>
 
@@ -127,8 +79,8 @@ If you have a request or suggestion, email me. </p>
         <th> How long I am working for: </th>
       </tr>
       <tr>
-        <td>N/A</td>
-        <td>N/A</td>
+        <td> This Website </td>
+        <td> May 9th-13th 2022 </td>
       </tr>
     </table>
   </footer>

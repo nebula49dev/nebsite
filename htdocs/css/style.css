@@ -27,7 +27,11 @@ body {
     color: #ffffff;
     whitespace: normal;
     margin: 20px;
-    background-image: url("images/backimage.png");
+}
+
+/* background image for "ALL" class divs (not working) */
+.all {
+  background-image: url("images/backimage.png");
 }
 /* hyperlink styling */
 .button {
@@ -79,5 +83,26 @@ body {
 
 .topnav a.active {
   background-color: #33ffff;
+  color: black;
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
   color: black;
 }

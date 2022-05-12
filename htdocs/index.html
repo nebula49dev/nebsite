@@ -3,7 +3,19 @@
 <!-- You might not like what you find -->
 <!-- almost all styling for the whole site is external and is located in the css folder -->
 <html>
+<!-- js not supported message -->
+<noscript>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  <strong>Warning! Javascript is not supported by your browser! Some features will not work! </strong>
+</div>
+</noscript>
 
+<div class="all">
+
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<title> nebula49dev official </title>
 <!-- link style.css -->
 <link rel="stylesheet" href="css/style.css">
 
@@ -16,7 +28,21 @@
 <div class="body">
 <!-- head element -->
   <head>
+<!-- bootstrap (dont touch this i don't know how it works) -->
+                      <meta charset="utf-8">
+                      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
+                      <!-- Bootstrap -->
+                      <!-- i turned off the bootstrap stylesheet so i can use my own <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+                      <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+                      <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+                      <!--[if lt IE 9]-->
+                        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+                      <![endif]-->
 <!-- banner image -->
              <img alt="nebula49dev" src="images/banner.png" class=title/>
 
@@ -25,6 +51,10 @@
       <h3> Not much goes on here, but enjoy your stay! </h3>
         <h4> <a class="button" href="https://www.github.com/IsaiahSloan"> My GitHub </a> </h4>
         <h4> <a class="button" href="https://nebula49.itch.io/"> My Itch </a> </h4>
+
+<!-- javascript link -->
+
+
   </head>
 <!-- ========================! main contents below !======================== -->
   <body>
@@ -86,5 +116,5 @@ If you have a request or suggestion, email me. </p>
   </footer>
 
 </div>
-
+</div>
 </html>

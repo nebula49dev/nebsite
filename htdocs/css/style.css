@@ -31,7 +31,7 @@ body {
 
 /* background image for "ALL" class divs (not working) */
 .all {
-  background-image: url("images/backimage.png");
+  border: 15px black;
 }
 /* hyperlink styling */
 .button {

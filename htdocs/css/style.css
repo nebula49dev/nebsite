@@ -1,4 +1,8 @@
 /* dynamic image scaling */
+html {
+  background-image: url("../images/back.png")
+}
+
 img {
   width: 100%;
   height: auto;
@@ -25,13 +29,13 @@ body {
     font-family: sans-serif;
     background-color: #ffffff;
     color: #ffffff;
-    whitespace: normal;
     margin: 20px;
+    border-radius: 25px;
 }
 
-/* background image for "ALL" class divs (not working) */
 .all {
   border: 15px black;
+    border-radius: 25px;
 }
 /* hyperlink styling */
 .button {
@@ -105,4 +109,12 @@ body {
 
 .closebtn:hover {
   color: black;
+}
+
+.devlogs {
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 25px;
 }

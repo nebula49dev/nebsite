@@ -6,21 +6,21 @@
     <h2> Title </h2>
   </header>
   <footer>
-  <p> Brief description of title </p>
+  <p> Date </p>
   </footer>
   <hr>
   <p> In-depth description of changes and/or additions to said item </p>
 </article>
 -->
 <html>
-
-<title> Devlog </title>
+<div class="background">
+<title> Devlogs </title>
 <div class="all">
   <!-- navbar -->
   <div class="topnav">
     <a href="index.html"> Home </a>
     <a href="contact.html"> Contact </a>
-    <a class="active" href="devlog.html"> Devlog </a>
+    <a class="active" href="devlog.html"> Devlogs </a>
   </div>
 
   <head>
@@ -50,10 +50,40 @@
     <!-- title -->
     <hr>
     <div class="jumbotron">
-    <h2 class="display-4"> Devlog </h2>
-    <p class="my-4"> Below are my devlogs.  </p>
+    <h2 class="display-4"> Devlogs </h2>
+    <p class="my-4"> Below are some updates as to what I am working on. If the toggle button doesn't work, make sure your browser supports JavaScript and that it is enabled on this site. </p>
     </div>
     </body>
+    <!-- latest devlog -->
+
+<div class="devlogs">
+    <div class="current">
+      <article>
+        <header>
+          <h2> Working on this website! </h2>
+        </header>
+        <hr>
+        <footer>
+          <p> May 12th, 2022 </p>
+        </footer>
+        <p> This website is currently undergoing huge changes as my class requires me to meet certain criteria. Expect new content frequently! </p>
+      </article>
+    </div>
+
+<!-- toggle div id previous (the function is located in external js file) -->
+<button class="button" onclick="toggleDiv()"> Toggle previous devlogs </button>
+
+    <!-- previous devlog (not shown by default) WARNING: keep previous devlogs to a minimum to keep the page small, keep deleted pages in deleted.html -->
+    <div id="previous" style="display:none">
+      Press the button again to hide previous devlogs.
+      <hr>
+<!-- previous devlogs under the line -->
+
+<!-- previous devlogs above the line -->
+    </div>
+</div>
+
+</div>
 </div>
 </div>
 </html>

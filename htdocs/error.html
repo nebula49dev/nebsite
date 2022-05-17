@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link rel="icon" type="image/png" href="images/favicon.png" />
 <style>
 </style>
-<title> Devlog </title>
+<title> Error 404 </title>
 <div class="all">
   <!-- navbar -->
   <div class="topnav">
@@ -14,7 +15,6 @@
 
   <head>
     <!-- bootstrap links and tags -->
-
     <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,10 +26,15 @@
 
     <!-- link style.css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- link countAPI js -->
+    <script async src="https://api.countapi.xyz/hit/nebula49dev.rf.gd/3c91c638-3261-4557-bbbc-1f0a2009670d?callback=websiteVisits">
 
-    <!-- link countAPI -->
-    <script async src="https://api.countapi.xyz/hit/nebula49dev.rf.gd/visits?callback=cb"></script>
-  </head>
+      //count visits function
+      function cb(response) {
+      document.getElementById('visits').innerText = response.value;
+      }
+
+    </script>
 <div class="body">
   <body>
 
@@ -45,7 +50,7 @@
       found on the trusty navigation bar, so be sure to check if it's on there.
       I apologize for the inconvenience. </p>
       <hr>
-      <p> This error has displayed <code id="visits"> 0 </code> times. </p>
+      <p> This error has displayed <code id="visits">0</code> times. </p>
     </div>
     </body>
 </div>

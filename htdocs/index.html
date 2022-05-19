@@ -2,6 +2,7 @@
 <!-- poking around in the source today, aren't we? -->
 <!-- almost all styling for the whole site is external and is located in the css folder -->
 <html>
+<a class="button" class="skip-main"> test </a>
 <link rel="icon" type="image/png" href="images/favicon.png" />
 <!-- js not supported message -->
 <noscript>
@@ -15,6 +16,9 @@
   <!-- bootstrap links and tags -->
 
   <!-- meta tags -->
+  <meta name="description" content="Developer home page">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Developer, Dev, Indie, Example, Open Source">
+  <meta name="author" content="Isaiah Sloan">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,21 +33,19 @@
 <!-- link style.css -->
 <link rel="stylesheet" href="css/style.css">
 
-
 <!-- navbar -->
 <div class="topnav">
   <a class="active" href="index.html"> Home </a>
   <a href="contact.html"> Contact </a>
   <a href="devlog.html"> Devlogs </a>
 </div>
-
 <div class="body">
 <!-- head element -->
   <head>
 
-
+<a class="skip-main" tabindex="0" href="#main">Skip to main content</a>
 <!-- banner image -->
-             <img alt="nebula49dev" src="images/banner.png" class=title/>
+             <img alt="nebula banner" src="images/banner.png" title="nebula49's banner" class=title/>
 
 <hr>
 <!-- title (uses bootstrap) -->
@@ -93,7 +95,7 @@ upload on is: </p>
     <li> SFXR (sound effects) </li>
     <li> Audacity (sound editing) </li>
     <li> paint.net/Photoshop (images) </li>
-    <li> FilmoraX (video editing) </li>
+    <li> Filmora 11 (video editing) </li>
   </ul>
 
 <!-- buttons -->
@@ -101,7 +103,7 @@ upload on is: </p>
 <p> I am not currently accepting hiring offers.
 If you have a request or suggestion, email me. </p>
 
-<h2> My Projects </h2>
+<h2 tabindex="-1"> My Projects </h2>
 
 <!-- embed from itch.io -->
 <iframe frameborder="0" src="https://itch.io/embed/877472?dark=true" width="552" height="167"><a href="https://nebula49.itch.io/a-normal-survey">A Normal Survey (PROTOTYPE) by nebula49dev</a></iframe>
